@@ -1,0 +1,46 @@
+name: signbridge_ui
+description: "ISL real-time sign language translator"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Auth
+  firebase_auth: ^5.0.0
+
+  # Camera stream
+  camera: ^0.11.4
+
+  # ✅ Real MediaPipe Hand Landmarks (21 pts × 3 × 2 hands = 126 features)
+  # Matches isl_twohand_mlp.tflite input exactly
+  hand_landmarker: ^2.1.2
+
+  # TFLite inference
+  tflite_flutter: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/signbridge.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/icon/signbridge.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/signbridge.png
+    - assets/isl_twohand_mlp.tflite
