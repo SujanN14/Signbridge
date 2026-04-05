@@ -1,0 +1,24 @@
+# Firebase config - never upload this
+google-services.json
+GoogleService-Info.plist
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Flutter
+.dart_tool/
+build/
+*.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.h5
+
+# IDE files
+.idea/
+.vscode/
+*.iml
