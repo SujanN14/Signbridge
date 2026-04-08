@@ -1,4 +1,4 @@
-# 🤟 SignBridge – Gesture to Text Conversion System
+#  SignBridge – Gesture to Text Conversion System
 
 > A real-time Indian Sign Language (ISL) gesture-to-text mobile application that uses a smartphone camera to recognize hand gestures and convert them into readable text — making communication accessible for the hearing-impaired community in India.
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Problem Statement
+ Problem Statement
 
 Over 6 crore people in India live with hearing impairment. Communication between hearing-impaired individuals who use Indian Sign Language (ISL) and the general public is a major barrier in daily life. Existing systems are either computationally expensive, not trained on ISL, or require specialized hardware beyond a standard smartphone.
 
@@ -19,19 +19,19 @@ SignBridge addresses this gap by providing a **lightweight, real-time, mobile-ba
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📷 Real-time hand gesture detection using phone camera
-- 🖐️ 21-point hand landmark extraction using MediaPipe Hands
-- 🤖 On-device ISL gesture classification using TensorFlow Lite (MLP model)
-- 🔐 Secure user authentication via Firebase
-- 📝 Live text overlay on camera feed
-- 🕓 Translation history screen with timestamps
-- ⚡ Inference latency under 1 second | 12–15 FPS on mid-range devices
+- Real-time hand gesture detection using phone camera
+-  21-point hand landmark extraction using MediaPipe Hands
+-  On-device ISL gesture classification using TensorFlow Lite (MLP model)
+-  Secure user authentication via Firebase
+-  Live text overlay on camera feed
+- Translation history screen with timestamps
+-  Inference latency under 1 second | 12–15 FPS on mid-range devices
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -46,7 +46,7 @@ SignBridge addresses this gap by providing a **lightweight, real-time, mobile-ba
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 SignBridge/
 ├── flutter_app/              # Mobile frontend (Flutter/Dart)
 │   ├── lib/
@@ -65,7 +65,7 @@ SignBridge/
 └── README.md
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. User opens app and logs in via Firebase Authentication
 2. Camera streams live video frames at ≥10 FPS
@@ -77,7 +77,7 @@ SignBridge/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Flutter SDK (Android target: Android 8.0+)
@@ -109,7 +109,7 @@ flutter pub get
        └── google-services.json   ← place it here
 ```
 
-   > ⚠️ Never commit this file to GitHub. Make sure `google-services.json` is in your `.gitignore`
+   >  Never commit this file to GitHub. Make sure `google-services.json` is in your `.gitignore`
 
 4. Install Python dependencies for ML pipeline
 ```bash
@@ -123,7 +123,7 @@ flutter run
 
 ---
 
-## 📊 Performance Results
+##  Performance Results
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
@@ -137,7 +137,7 @@ flutter run
 
 ---
 
-## ✅ Current Status
+##  Current Status
 
 - [x] Firebase authentication (login, registration, email verification)
 - [x] Live camera feed with MediaPipe hand landmark detection
@@ -154,13 +154,12 @@ flutter run
 
 ---
 
-## 🎯 Social Impact
-
+##  Social Impact
 SignBridge is built for the **6 crore+ hearing-impaired individuals in India** who use Indian Sign Language. By running entirely on a standard Android smartphone with no internet required for inference, it is accessible, affordable, and practical for everyday use.
 
 ---
 
-## 🔒 Security Note
+##  Security Note
 
 The `google-services.json` file is **not included** in this repository for security reasons.
 To run this project locally, generate your own Firebase project and download
@@ -168,6 +167,6 @@ your own config file as described in the setup steps above.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
