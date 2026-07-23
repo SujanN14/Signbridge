@@ -127,11 +127,11 @@ flutter run
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
-| Test Cases Passed | 9/9 | ✅ 9/9 (100%) |
-| Inference Latency | < 1 second | ✅ ~0.6 – 0.8 seconds |
-| FPS on Mid-range Device | ≥ 10 FPS | ✅ 12–15 FPS |
-| Authentication Success Rate | 100% | ✅ 100% |
-| Gesture Recognition Accuracy | ≥ 90% | ✅ ~93% (good lighting) |
+| Test Cases Passed | 9/9 |  9/9 (100%) |
+| Inference Latency | < 1 second |  ~0.6 – 0.8 seconds |
+| FPS on Mid-range Device | ≥ 10 FPS |  12–15 FPS |
+| Authentication Success Rate | 100% |  100% |
+| Gesture Recognition Accuracy | ≥ 90% |  ~93% (good lighting) |
 
 > Note: Accuracy drops to ~78% under poor lighting — a retry prompt is shown in this case.
 
